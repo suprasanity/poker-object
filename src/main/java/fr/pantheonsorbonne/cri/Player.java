@@ -91,7 +91,7 @@ public class Player {
 
     public String[] getCombinaison(Card[] main){
         int countMax=1;
-        ArrayList <Card> carteMaxVal = new ArrayList<>();
+        ArrayList <Card> carteMaxVal = new ArrayList<Card>();
         String valeur="";
         int countPaire=0;
         for(Card c : main){
